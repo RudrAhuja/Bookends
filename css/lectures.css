@@ -1,0 +1,197 @@
+html
+{
+    scroll-behavior: smooth;
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: #4f4d4d;
+    font-size: 1.5vw;
+}
+#logocontainer
+{
+    width: 75%;
+    height: 6vw ;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0px;
+    left: 12%
+}
+#logocontainer span 
+{
+    position: absolute;
+    margin-top: -8%;
+}
+#logo
+{
+    width: 28%;
+    min-height: 100%;
+    text-align: center;
+    background-color: white;
+}
+#Welcome
+{
+    background-color: rgba(0, 0, 0, 0.65);
+    display: inline-block;
+    padding: 3vw 2vw;
+}
+nav
+{
+    position: absolute;
+    top:6vw;
+    margin-left: 33.6%;
+    padding-bottom: 0%;
+    width: 53.70%;
+    height: 3vw;  
+}
+nav ul
+{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+    text-align: center;
+    height: 3vw;
+}
+nav ul li
+{
+    background-color: transparent;
+    position:relative;
+    list-style-type: none;
+    display: inline-block;
+    width: 15%;
+    height: 3vw;
+    box-sizing: border-box;
+    margin: 0px 0.5%;
+    border-bottom: 2px solid white;
+}
+nav ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    line-height: 180%;
+}
+nav ul li a:hover
+{
+    background-color: white;
+    color: black;
+}
+nav ul ul 
+{
+    display: none;
+}
+nav ul li:hover ul
+{
+    display: block;
+}
+nav ul ul li 
+{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 0px;
+}
+#background
+{
+    width: 100%;
+    height: 40vw;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQISBEev_LCv1nOF9N-k0Q-L2YXruhFcVu4-A&usqp=CAU");
+    filter: blur(3px);
+    background-repeat: repeat;
+    background-size: 50%;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 0 90%);
+}
+.lectures
+{
+    background-color: white;
+    position: relative;
+    width: 90%;
+    height: 16vw;
+    margin: 0px 4%;
+    box-shadow: 5px 5px 5px 5px #888888;
+    margin-bottom: 5%
+}
+.lectures img
+{
+    width: 24vw;
+    height: 16vw;
+}
+.lectures #vids
+{
+    background-color: grey;
+    height: 13vw;
+    width: 56vw;
+    margin-left: 28vw;
+    margin-top: -14vw;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+.lectures #vids img
+{
+    width: 15vw;
+    height: 10vw;
+    margin: 1vw;
+}
+#layout
+{
+    width: 100%;
+    height: 500px;
+    display:grid;
+    grid-template-columns: 39% 28% 33%  ;
+    grid-auto-rows: 50% 50%;   
+}
+#item1{
+    background-color: black ; 
+    grid-row:1 / 2 ;
+    grid-column:1 / 2 ;
+    color: white;
+    padding-top: 3vw;
+    padding-right: 5vw;
+    padding-left: 5vw ;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#item2{
+    background-color:black ;
+    grid-row: 2/ 3;
+    grid-column: 1/ 2;
+    color: white;
+    padding-top: 3vw;
+    padding-right: 5vw;
+    padding-left: 5vw 
+}
+#item3{
+    background-color:black ;
+    grid-row:1/3;
+    grid-column:2/3 ;
+    color: white;
+    padding-top: 3vw;
+    padding-right: 5vw;
+    padding-left: 3vw 
+}
+#item5{
+            background-color:black;
+            grid-row:1/2;
+            grid-column:3/4 ;
+            color: white;
+            margin: 0vw 0vw 0px 0px ;
+        }
+ #item6{
+            background-color:black;
+            grid-row: 2/3;
+            grid-column: 3/4 ;
+            color: white;
+            padding-top : 5vw;
+            padding-right: 8vw 
+        }
+       
+    
+        
+        
